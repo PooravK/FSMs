@@ -1,12 +1,12 @@
 `timescale 1ns/1ps
 
-module tb_moore_SD();
+module tb_OLSD_1011();
     reg clk;
     reg in;
     reg clear;
     wire out;
 
-    moore_SD uut (
+    OLSD_1011 uut (
         .clk(clk),
         .in(in),
         .clear(clear),
@@ -17,9 +17,9 @@ module tb_moore_SD();
     
     always #5 clk = ~clk;
 
-    initial begin //Test input: 1011001011
+    initial begin //Test input: 10110101011
         $dumpfile("waveform1011.vcd");
-        $dumpvars(0, tb_moore_SD);
+        $dumpvars(0, tb_OLSD_1011);
 
         clear = 1'b1; in = 1'b0; #10;
 
@@ -31,6 +31,8 @@ module tb_moore_SD();
         in = 1'b1; #10;
 
         in = 1'b0; #10;
+        in = 1'b1; #10;
+
         in = 1'b0; #10;
 
         in = 1'b1; #10;
