@@ -1,0 +1,169 @@
+$date
+	Sat Oct 18 21:37:27 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_Johnson4bit $end
+$var wire 4 ! q_out [3:0] $end
+$var reg 1 " clear $end
+$var reg 1 # clk $end
+$var reg 1 $ count_mode $end
+$var reg 1 % en $end
+$scope module uut $end
+$var wire 1 " clear $end
+$var wire 1 # clk $end
+$var wire 1 $ count_mode $end
+$var wire 1 % en $end
+$var reg 4 & q_out [3:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 &
+0%
+0$
+0#
+1"
+b0 !
+$end
+#5000
+1#
+#10000
+0#
+1$
+1%
+0"
+#15000
+b1 !
+b1 &
+1#
+#20000
+0#
+#25000
+b11 !
+b11 &
+1#
+#30000
+0#
+#35000
+b111 !
+b111 &
+1#
+#40000
+0#
+#45000
+b1111 !
+b1111 &
+1#
+#50000
+0#
+#55000
+b1110 !
+b1110 &
+1#
+#60000
+0#
+#65000
+b1100 !
+b1100 &
+1#
+#70000
+0#
+#75000
+b1000 !
+b1000 &
+1#
+#80000
+0#
+#85000
+b0 !
+b0 &
+1#
+#90000
+0#
+0%
+#95000
+1#
+#100000
+0#
+#105000
+1#
+#110000
+0#
+0$
+1%
+#115000
+b1000 !
+b1000 &
+1#
+#120000
+0#
+#125000
+b1100 !
+b1100 &
+1#
+#130000
+0#
+#135000
+b1110 !
+b1110 &
+1#
+#140000
+0#
+#145000
+b1111 !
+b1111 &
+1#
+#150000
+0#
+#155000
+b111 !
+b111 &
+1#
+#160000
+0#
+#165000
+b11 !
+b11 &
+1#
+#170000
+0#
+#175000
+b1 !
+b1 &
+1#
+#180000
+0#
+#185000
+b0 !
+b0 &
+1#
+#190000
+0#
+1"
+#195000
+1#
+#200000
+0#
+#205000
+1#
+#210000
+0#
+0%
+0"
+#215000
+1#
+#220000
+0#
+#225000
+1#
+#230000
+0#
