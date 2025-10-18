@@ -1,0 +1,92 @@
+$date
+	Sat Oct 18 22:32:08 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_LEDblinker $end
+$var wire 1 ! led_out $end
+$var reg 1 " clear $end
+$var reg 1 # clk $end
+$scope module uut $end
+$var wire 1 " clear $end
+$var wire 1 # clk $end
+$var reg 25 $ counter_flag [24:0] $end
+$var reg 1 ! led_out $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 $
+0#
+1"
+0!
+$end
+#5000
+1#
+#10000
+0#
+#15000
+1#
+#20000
+0#
+0"
+#25000
+b1 $
+1#
+#30000
+0#
+#35000
+b10 $
+1#
+#40000
+0#
+#45000
+b11 $
+1#
+#50000
+0#
+#55000
+b100 $
+1#
+#60000
+0#
+#65000
+b0 $
+1!
+1#
+#70000
+0#
+#75000
+b1 $
+1#
+#80000
+0#
+#85000
+b10 $
+1#
+#90000
+0#
+#95000
+b11 $
+1#
+#100000
+0!
+b0 $
+0#
+1"
+#105000
+1#
+#110000
+0#
+#115000
+1#
+#120000
+0#
